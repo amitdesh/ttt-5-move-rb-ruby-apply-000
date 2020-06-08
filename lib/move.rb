@@ -13,7 +13,7 @@ end
 
 
 def move(board, index, value = "X")
-  board[index.to_i] = value
+  board[index] = value
 end
 
 # code your input_to_index and move method here!
